@@ -1,0 +1,23 @@
+[project]
+name = "Robo-Pong"
+version = "0.0.1"
+authors = [
+  { name="Alex Pleava", email="alex.pleava@gmail.com" },
+  { name="Ryan Pleava", email="ryan.pleava@gmail.com" },
+]
+description = "A pong remake using robotic manipulators"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AlexP210/Robo-Pong"
+"Bug Tracker" = "https://github.com/AlexP210/Robo-Pong/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
